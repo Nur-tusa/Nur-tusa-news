@@ -16,6 +16,13 @@ name :  nur-tusa
 contact : 0115314390
 address : NAIROBI -KENYA
 
+## Technologies Used
+1. Python
+2. HTML
+3. CSS
+4. flask
+5. bootrap
+
 
 
 # copyright 
