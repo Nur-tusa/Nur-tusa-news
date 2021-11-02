@@ -15,7 +15,9 @@ This is an app where people can see daily news anytime by  just click the type o
 4.install bootrap
 # support team
 name :  nur-tusa 
+
 contact : 0115314390
+
 address : NAIROBI -KENYA
 
 ## Technologies Used
