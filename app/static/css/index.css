@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(230, 173, 216);
+    background-image: url("../news1.jpg");
+  }
+  
+  h1 {
+    color: rgb(52, 185, 25);
+    text-align: center;
+
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  div {
+    border: 5px solid green;
+    padding: 5px;
+  }
+  h1 {
+    border: 15px solid green;
+    padding: 50px;
+  }

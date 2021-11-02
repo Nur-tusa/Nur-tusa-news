@@ -10,14 +10,14 @@
 
 <div class="container bg-success">
     <h3 class="text-center text-danger header"> welcome to online tv</h3>
-   <div class="row">
+   <div class="column">
        <div class="col-md-12">
         {% for source in sources %}
         <p class="text-primary" >{{source.name}}</p><br>
-        <p>{{ source.description }}- <a class="btn btn-primary btn-sm" href="{{source.url}}">read more</a></p>
+        <p>{{ source.description }}- <a class="btn btn-success" href="{{source.url}}">click for more</a></p>
         <p><em>{{ source.category}}</em></p>
         <p>{{ source.country}}</p>
-        <p>To find different articles in this source,click  <a class="btn btn-danger btn-sm" href="/articles/{{source.id}}">Here</a></p>
+        <h5>for articles  <a class="btn btn-success" href="/articles/{{source.id}}">Here</a></h5>
         {% endfor %}
        </div>
    </div>
