@@ -1,0 +1,25 @@
+{% extends 'base.html'%}
+
+
+<!-- content block -->
+{% block content %}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+
+
+
+<div class="container bg-success">
+    <h3 class="text-center text-danger header" style="border: 10px;"> welcome to online tv</h3>
+   <div class="column">
+       <div class="col-md-12">
+        {% for source in sources %}
+        <p class="text-primary" >{{source.name}}</p><br>
+        <p>{{ source.description }}- <a class="btn btn-success" href="{{source.url}}">click for more</a></p>
+        <p><em>{{ source.category}}</em></p>
+        <p>{{ source.country}}</p>
+        <h5>for articles  <a class="btn btn-success" href="/articles/{{source.id}}">Here</a></h5>
+        {% endfor %}
+       </div>
+   </div>
+</div>
+{% endblock %}
